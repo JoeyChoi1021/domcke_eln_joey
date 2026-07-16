@@ -1,0 +1,61 @@
+/*-- scss:defaults --*/
+// ==========================================================================
+// Quarto RevealJS theme variables — override any of these.
+// Full list: https://quarto.org/docs/presentations/revealjs/themes.html
+// ==========================================================================
+
+// --- Fonts ---------------------------------------------------------------
+$font-family-sans-serif: "Source Sans Pro", -apple-system, "Segoe UI", sans-serif !default;
+$presentation-font-size-root: 34px;          // base font size for slides
+$presentation-heading-font: $font-family-sans-serif;
+$presentation-heading-color: #2d2d2d;
+$presentation-heading-font-weight: 700;
+
+// --- Colors --------------------------------------------------------------
+$body-bg: #ffffff;
+$body-color: #222222;
+$link-color: #6f42c1;                         // purple links
+$selection-bg: #e9d8fd;
+
+// --- Code ----------------------------------------------------------------
+$code-block-font-size: 0.7em;
+$code-color: #6f42c1;
+
+/*-- scss:rules --*/
+// ==========================================================================
+// Custom rules — free-form CSS applied on top of the theme.
+// ==========================================================================
+
+// Purple highlight (marker-pen) — use ::: {.hl-purple} or [text]{.hl-purple}
+.hl-purple {
+  background-color: #e9d8fd;
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+}
+
+// A few more handy highlight colors
+.hl-yellow { background-color: #fff3bf; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-green  { background-color: #d3f9d8; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-red    { background-color: #ffe3e3; padding: 0.1em 0.3em; border-radius: 0.2em; }
+
+// Colored text spans — [text]{.txt-purple}
+.txt-purple { color: #6f42c1; font-weight: 700; }
+.txt-muted  { color: #868e96; }
+
+// Small / large text helpers — [text]{.small} / {.big}
+.small { font-size: 0.7em; }
+.big   { font-size: 1.4em; }
+
+// Simple callout box — ::: {.callout-box} ... :::
+.callout-box {
+  border-left: 4px solid #6f42c1;
+  background: #f8f5fd;
+  padding: 0.6em 1em;
+  border-radius: 0 0.3em 0.3em 0;
+}
+
+// Tighten bullet spacing
+.reveal ul, .reveal ol { line-height: 1.4; }
+
+// Footer / slide-number accent
+.reveal .slide-number { color: #6f42c1; }

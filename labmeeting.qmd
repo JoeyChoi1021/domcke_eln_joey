@@ -1,0 +1,116 @@
+---
+title: "Domcke lab Electric lab Note book"
+subtitle: "Integrate Git & Github and AI agents to your science"
+author:
+ - name: "Joey Choi"
+   affiliation: University of Zurich
+   email: wonhyung.choi@uzh.ch
+date: last-modified
+format: 
+    revealjs:
+        incremental: false
+        slide-number: true
+        transition: slide
+        theme: [simple, custom.scss]
+        scrollable: true
+        logo: image.png
+---
+
+## Lets think about....
+
+::: {.callout-note}
+## What should we value an ELN?
+:::
+
+-  Easy-to-archive
+
+-  Easy read and Easy write
+
+-  Flexibility --- We all have different way to handle our missions!
+
+
+
+::: {.callout-note}
+## What should we pursue as a researcher?
+:::
+- Reproducibility -- ex. Documentation
+
+- Collaborative -- ex. Data share to 
+
+- Robust workflow -- Daily routine 
+
+::: {.callout-caution}
+## Caution
+We are vulnerable, fragile but busy 
+:::
+
+
+## What we have been using
+
+
+:::{.column width="40%"}
+
+**Google Docs, Dropbox and OpenBis**  
+
+**a.k.a Cloud-based tools**
+
+::: {.callout-tip}
+## Good
+- Easy to share
+- Intuitive (User friendly)
+- Globally used
+:::
+
+::: {.callout-warning}
+## Lack of 
+- Structured way to track change (version control)
+:::
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="40%"}
+
+**Slack, Microsoft Teams**
+
+**a.k.a Messaging tools** 
+
+::: {.callout-tip}
+## Good
+- Facilitate informal discussion
+- Easy for file exchange
+:::
+
+::: {.callout-warning}
+## Lack of 
+- poor organized format
+- unreproducible
+:::
+:::
+
+
+
+## Fragmented research tool {transition="convex"}
+![](image copy.png) [^1]
+
+[^1]: Chen, K. Y., Toro-Moreno, M., & Subramaniam, A. R. (2024). GitHub is an effective platform for collaborative and reproducible laboratory research. arXiv. https://arxiv.org/abs/2408.09344
+
+
+## Here is Git and GitHub! 
+### This is All-in-one package
+
+- Record tracking
+
+- Experimental record (logs)
+
+- Collaboration
+
+- etc... 
+
+::: {.callout-warning}
+## However
+We need a bit of training
+:::
+
+
