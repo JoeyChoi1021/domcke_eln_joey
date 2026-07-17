@@ -16,6 +16,8 @@ format:
         logo: image.png
 ---
 
+# ELN and GitHub
+
 ## Lets think about....
 
 ::: {.callout-note}
@@ -152,6 +154,8 @@ During Whole process what you need to command are:
 :::
 
 
-## 
+# Markdown 
+
+# Data management with Claude Code
 
 
