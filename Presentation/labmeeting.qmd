@@ -142,15 +142,16 @@ down arrow (plz help me to add)
 ::: {.callout-important}
 ## Important
 During Whole process what you need to command are:
-git init
-git add .
-git commit -m “[descriptive message]”
-git log
+- git init
+- git add .
+- git commit -m “[descriptive message]”
+- git log
 
-git remote add origin [url]
-git push origin [branch]
-
+- git remote add origin [url]
+- git push origin [branch]
 :::
 
+
+## 
 
 
