@@ -100,9 +100,9 @@ We are vulnerable, fragile but busy
 ## Here is Git and GitHub! 
 ### This is All-in-one package
 
-- Record tracking
+- version tracking
 
-- Experimental record (logs)
+- Universal file formats
 
 - Collaboration
 
@@ -112,5 +112,45 @@ We are vulnerable, fragile but busy
 ## However
 We need a bit of training
 :::
+
+# What? and How? 
+
+
+## What is GitHub??
+
+(Here plz demonstrate what is Git and GitHub)
+
+
+## So How?? {background-image=prometheus.jpeg}
+
+::: {.callout-note}
+## OKay! i know what they are! 
+But HOW?
+:::
+
+1. Setup GitHub
+down arrow (plz help me to add)
+2. Create own repository
+down arrow (plz help me to add)
+3. clone to local
+down arrow (plz help me to add)
+4. Edit files 
+down arrow (plz help me to add)
+5. stage and commit changes
+down arrow (plz help me to add)
+
+::: {.callout-important}
+## Important
+During Whole process what you need to command are:
+git init
+git add .
+git commit -m “[descriptive message]”
+git log
+
+git remote add origin [url]
+git push origin [branch]
+
+:::
+
 
 
