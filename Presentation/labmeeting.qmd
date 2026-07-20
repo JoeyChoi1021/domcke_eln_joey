@@ -10,7 +10,7 @@ format:
     revealjs:
         incremental: false
         slide-number: true
-        transition: slide
+        transition: none
         theme: [simple, custom.scss]
         scrollable: true
         logo: image.png
@@ -20,86 +20,88 @@ format:
 
 ## Lets think about....
 
-::: {.callout-note}
+::: callout-note
 ## What should we value an ELN?
 :::
 
--  Easy-to-archive
+- Easy-to-archive
 
--  Easy read and Easy write
+- Easy read and Easy write
 
--  Flexibility --- We all have different way to handle our missions!
+- Flexibility --- We all have different way to handle our missions!
 
+. . .
 
-
-::: {.callout-note}
+::: callout-note
 ## What should we pursue as a researcher?
 :::
+
 - Reproducibility -- ex. Documentation
 
-- Collaborative -- ex. Data share to 
+- Collaborative -- ex. Data share to other researcher
 
-- Robust workflow -- Daily routine 
+- Robust workflow
 
-::: {.callout-caution}
+. . .
+
+::: callout-caution
 ## Caution
-We are vulnerable, fragile but busy 
-:::
 
+We are vulnerable, fragile but busy
+:::
 
 ## What we have been using
 
+**1. Google Docs, Dropbox and OpenBis**
 
-:::{.column width="40%"}
+**(a.k.a Cloud-based tools)**
 
-**Google Docs, Dropbox and OpenBis**  
+::: callout-tip
+## **Good**
 
-**a.k.a Cloud-based tools**
-
-::: {.callout-tip}
-## Good
 - Easy to share
 - Intuitive (User friendly)
 - Globally used
 :::
 
-::: {.callout-warning}
-## Lack of 
+::: callout-warning
+## **Lack of**
+
 - Structured way to track change (version control)
 :::
-:::
 
-:::{.column width="10%"}
-:::
+\
 
-:::{.column width="40%"}
+. . .
 
-**Slack, Microsoft Teams**
+**2. Slack, Microsoft Teams**
 
-**a.k.a Messaging tools** 
+**(a.k.a Messaging tools)**
 
-::: {.callout-tip}
+::: callout-tip
 ## Good
+
 - Facilitate informal discussion
 - Easy for file exchange
 :::
 
-::: {.callout-warning}
-## Lack of 
+::: callout-warning
+## Lack of
+
 - poor organized format
 - unreproducible
 :::
-:::
-
-
 
 ## Fragmented research tool {transition="convex"}
-![](image copy.png) [^1]
 
-[^1]: Chen, K. Y., Toro-Moreno, M., & Subramaniam, A. R. (2024). GitHub is an effective platform for collaborative and reproducible laboratory research. arXiv. https://arxiv.org/abs/2408.09344
+![](image%20copy%202.png){fig-align="center"}
 
+::: {style="font-size: 0.4em; text-align: center; color: gray;"}
+Chen, K. Y., Toro-Moreno, M., & Subramaniam, A. R. (2024). GitHub is an effective platform for collaborative and reproducible laboratory research. arXiv. https://arxiv.org/abs/2408.09344
+:::
 
-## Here is Git and GitHub! 
+## Here is Git and GitHub!
+
 ### This is All-in-one package
 
 - version tracking
@@ -108,54 +110,82 @@ We are vulnerable, fragile but busy
 
 - Collaboration
 
-- etc... 
+- etc...
 
-::: {.callout-warning}
+::: callout-warning
 ## However
-We need a bit of training
+
+We need a bit of time to learn....
 :::
 
-# What? and How? 
+## Here is Git and GitHub!
+### This is All-in-one package
+![](image copy 3.png){fig-align="center"}
+
+::: {style="font-size: 0.4em; text-align: center; color: gray;"}
+Chen, K. Y., Toro-Moreno, M., & Subramaniam, A. R. (2024). GitHub is an effective platform for collaborative and reproducible laboratory research. arXiv. https://arxiv.org/abs/2408.09344
+:::
 
 
-## What is GitHub??
+# What? and How?
 
-(Here plz demonstrate what is Git and GitHub)
+## What's Git
 
+::: {.hl-purple}
+Git is a record system within your folder
+![](20260720154044.png){height="1.2em" style="vertical-align: middle; display: inline;"}
+:::
 
-## So How?? {background-image=prometheus.jpeg}
+: Once you have a change **wherever** in your file, git will record.
 
-::: {.callout-note}
-## OKay! i know what they are! 
+\
+
+::: {.fragment}
+
+### What's GitHub
+
+::: {.hl-blue}
+GitHub is a web-based code cloud
+![](20260720154122.png){height="1.2em" style="vertical-align: middle; display: inline;"} 
+:::
+
+: Once you have done your job, you can **upload** your code/files to GitHub, so others can access it.
+
+:::
+
+## So How?? 
+
+::: callout-note
+## OKay! i know what they are!
+
 But HOW?
 :::
 
-1. Setup GitHub
-down arrow (plz help me to add)
-2. Create own repository
-down arrow (plz help me to add)
-3. clone to local
-down arrow (plz help me to add)
-4. Edit files 
-down arrow (plz help me to add)
-5. stage and commit changes
-down arrow (plz help me to add)
+1.  Setup GitHub down arrow (plz help me to add)
+2.  Create own repository down arrow (plz help me to add)
+3.  clone to local down arrow (plz help me to add)
+4.  Edit files down arrow (plz help me to add)
+5.  stage and commit changes down arrow (plz help me to add)
 
-::: {.callout-important}
+::: callout-important
 ## Important
-During Whole process what you need to command are:
-- git init
-- git add .
-- git commit -m “[descriptive message]”
-- git log
 
-- git remote add origin [url]
-- git push origin [branch]
+During Whole process what you need to command are: - git init - git add . - git commit -m “\[descriptive message\]” - git log
+
+- git remote add origin \[url\]
+- git push origin \[branch\]
 :::
 
+::: {.columns}
+:::: {.column width="50%"}
+- Data collection
+- Statistical analysis
+::::
+:::: {.column width="50%"}
+![](methodology.png)
+::::
+:::
 
-# Markdown 
+# Markdown
 
 # Data management with Claude Code
-
-

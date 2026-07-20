@@ -34,9 +34,14 @@ $code-color: #6f42c1;
 }
 
 // A few more handy highlight colors
-.hl-yellow { background-color: #fff3bf; padding: 0.1em 0.3em; border-radius: 0.2em; }
-.hl-green  { background-color: #d3f9d8; padding: 0.1em 0.3em; border-radius: 0.2em; }
-.hl-red    { background-color: #ffe3e3; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-yellow   { background-color: #fff3bf; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-green    { background-color: #d3f9d8; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-red      { background-color: #ffe3e3; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-blue     { background-color: #d0ebff; padding: 0.1em 0.3em; border-radius: 0.2em; }
+.hl-electric { background-color: #c5f6fa; padding: 0.1em 0.3em; border-radius: 0.2em; } // cyan
+.hl-canopy   { background-color: #c3fae8; padding: 0.1em 0.3em; border-radius: 0.2em; } // green
+.hl-buzz     { background-color: #ffec99; padding: 0.1em 0.3em; border-radius: 0.2em; } // yellow
+.hl-horizon  { background-color: #ffd8a8; padding: 0.1em 0.3em; border-radius: 0.2em; } // orange
 
 // Colored text spans — [text]{.txt-purple}
 .txt-purple { color: #6f42c1; font-weight: 700; }
