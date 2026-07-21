@@ -345,7 +345,7 @@ AI is now actually able to do [**action**]{style="color:red"} in my local setup.
 
 ---
 
-## Leveraging Claude code to our research
+## Leveraging Claude code for our research
 
 <br/>
 
@@ -371,18 +371,18 @@ AI is now actually able to do [**action**]{style="color:red"} in my local setup.
 
 <br/>
 
-NO. CLAUDE [IS NOT ABLE]{style="color:red"} TO REPLACE 100% of YOUR JOB
+NO. Claude [IS NOT ABLE]{style="color:red"} to replace 100% of your job
 
 
 ::: {.callout-caution}
 ## [CAUTION]{style="color:red"}
-Claude can even make your work worse
+[Claude can even make your work worse]{style="color:red"}
 :::
 
 <br/>
 
 
-> "vibe codeing" is great for prototypes.
-> But dangerous production systems, security, and long-term code quality are on the line
+> "Vibe coding" is great for prototypes.
+> But dangerous production systems, security, and long-term code quality are on the line.
 >  <br/> -Boris cherrny-
 

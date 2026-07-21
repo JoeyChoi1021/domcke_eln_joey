@@ -10,3 +10,4 @@ date: last-modified
 
 ## July 21 2026
 1. Done Cell thaw -- WD44 cell 2 dishes
+2. Done meeting with Giulia regarding Thesis result part.1 and method
