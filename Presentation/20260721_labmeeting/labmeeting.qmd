@@ -1,0 +1,388 @@
+---
+title: "Domcke lab Electric lab Note book"
+subtitle: "Integrate Git & Github and AI agents to your science"
+author:
+ - name: "Joey Choi"
+   affiliation: University of Zurich
+   email: wonhyung.choi@uzh.ch
+date: last-modified
+format: 
+    revealjs:
+        incremental: false
+        slide-number: true
+        transition: none
+        theme: [simple, custom.scss]
+        scrollable: true
+        logo: image/image.png
+---
+
+# ELN and GitHub
+
+---
+
+## Let's think about....
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+
+::: callout-note
+## What should we value an ELN?
+:::
+
+- Easy-to-archive
+
+- Easy read and Easy write
+
+- Flexibility --- We all have different way to handle our missions!
+
+. . .
+
+::: callout-note
+## What should we pursue as a researcher?
+:::
+
+- Reproducibility -- ex. Documentation
+
+- Collaborative -- ex. Data share to other researcher
+
+- Robust workflow
+
+. . .
+
+::: callout-caution
+## Caution
+
+We are vulnerable, fragile but busy
+:::
+
+---
+
+## What we have been using
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+**1. Google Docs, Dropbox and OpenBis**
+
+**(a.k.a. Cloud-based tools)**
+
+::: callout-tip
+## **Good**
+
+- Easy to share
+- Intuitive (User friendly)
+- Globally used
+:::
+
+::: callout-warning
+## **Lack of**
+
+- Structured way to track change (version control)
+:::
+
+\
+
+. . .
+
+**2. Slack, Microsoft Teams**
+
+**(a.k.a. Messaging tools)**
+
+::: callout-tip
+## Good
+
+- Facilitate informal discussion
+- Easy for file exchange
+:::
+
+::: callout-warning
+## Lack of
+
+- poor organized format
+- unreproducible
+:::
+
+---
+
+## Fragmented research tool {transition="convex"}
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+![](image/image%20copy%202.png){fig-align="center"}
+
+::: {style="font-size: 0.4em; text-align: center; color: gray;"}
+Chen, K. Y., Toro-Moreno, M., & Subramaniam, A. R. (2024). GitHub is an effective platform for collaborative and reproducible laboratory research. arXiv. https://arxiv.org/abs/2408.09344
+:::
+
+## Here is Git and GitHub!
+
+### This is All-in-one package
+
+- version tracking
+
+- Universal file formats
+
+- Collaboration
+
+- etc...
+
+::: callout-warning
+## However
+
+We need a bit of time to learn....
+:::
+
+## Here is Git and GitHub!
+### This is All-in-one package
+![](image/image copy 3.png){fig-align="center"}
+
+::: {style="font-size: 0.4em; text-align: center; color: gray;"}
+Chen, K. Y., Toro-Moreno, M., & Subramaniam, A. R. (2024). GitHub is an effective platform for collaborative and reproducible laboratory research. arXiv. https://arxiv.org/abs/2408.09344
+:::
+
+---
+
+# What? And How? ![](https://api.iconify.design/mdi:github.svg){height="1.2em" style="vertical-align: middle; display: inline;"}![](https://api.iconify.design/devicon:git.svg){height="1.2em" style="vertical-align: middle; display: inline;"}
+
+---
+
+## What's Git?
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.hl-purple}
+![](https://api.iconify.design/devicon:git.svg){height="1.2em" style="vertical-align: middle; display: inline;"} Git is a record system within your folder
+:::
+
+: Once you have a change **wherever** in your file, git will record.
+
+\
+
+::: {.fragment}
+
+### What's GitHub?
+
+::: {.hl-blue}
+![](https://api.iconify.design/mdi:github.svg){height="1.2em" style="vertical-align: middle; display: inline;"} GitHub is a web-based code cloud
+:::
+
+: Once you have done your job, you can **upload** your code/files to GitHub, so others can access it.
+
+\
+
+::: {.callout-note}
+## [Storage limit]{style="color:#cc0000"}
+- 100 MB per file
+- ~ 2GB per repository (ideally)
+- Unlimited repo (No strict rules…) 
+:::
+
+:::
+
+---
+
+## How? 
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+### pipeline 
+
+
+::: {.columns}
+
+:::: {.column width="50%"}
+```{mermaid}
+%%| fig-align: center
+flowchart TD
+   GitHub -->|pull| Local
+    Local -->|push| GitHub
+    Local --> Bench
+    Bench -->|transcribe| Local
+
+    style Bench fill:#fff9c4,stroke:#f57f17
+    style Local fill:#c8e6c9,stroke:#2e7d32
+    style GitHub fill:#e1f5fe,stroke:#01579b
+```
+
+#### Personal project {style="text-align: center;"}
+::::
+
+:::: {.column width="50%"}
+```{mermaid}
+%%| fig-align: center
+flowchart TD
+    GitHub
+    GitHub -->|pull| Local1[Local 1]
+    Local1 -->|push| GitHub
+    GitHub -->|pull| Local2[Local 2]
+    Local2 -->|push| GitHub
+    Local1 <--> Bench1[bench 1]
+    Local2 <--> Bench2[bench 2]
+
+    style GitHub fill:#e1f5fe,stroke:#01579b
+    style Local1 fill:#c8e6c9,stroke:#2e7d32
+    style Local2 fill:#c8e6c9,stroke:#2e7d32
+    style Bench1 fill:#fff9c4,stroke:#f57f17
+    style Bench2 fill:#fff9c4,stroke:#f57f17
+```
+
+#### Shared project {style="text-align: center;"}
+::::
+
+:::
+
+\
+
+### Folder structure
+
+```text
+project
+├── ATAC_qPCR
+│   ├── 20260706_primer_test
+│   │   ├── note.md
+│   │   ├── image.png
+│   │   ├── table.csv
+│   │   └── ...
+│   └── 20260626_gDNA_titration
+├── RoCK_ATAC
+├── RoCK_ROI_bead
+└── 10x_vs_BD
+```
+
+:::{.callout-important}
+### The file structure can be varied as user defined
+:::
+
+---
+
+# Showcase
+
+---
+
+# Markdown ![](https://api.iconify.design/mdi:language-markdown.svg){height="1.2em" style="vertical-align: middle; display: inline;"}
+
+
+---
+
+## All about Markdown ![](https://api.iconify.design/mdi:language-markdown.svg){height="1.2em" style="vertical-align: middle; display: inline;"}
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 2 3 4 [5 6]{style="opacity:0.25"}
+:::
+:::
+
+### What's Markdown?
+Markdown is a lightweight markup language that you can use to add **formatting elements** to **plaintext text documents.** 
+
+\
+
+### Why Markdown?
+> Markdown can be used for everything.\
+> Markdown is portable.\
+> Markdown is platform independent.\
+>[from markdown guide](https://www.markdownguide.org/getting-started/)
+
+---
+
+## With markdown, we can make
+
+::: {.absolute top="0" right="5%"}
+::: {.sectionhead}
+1 2 3 4 [5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.columns}
+
+:::: {.column width="50%"}
+Report
+![](https://jozefhajnala.gitlab.io/r/img/r909-02-spinned.png)
+::::
+
+:::: {.column width="50%" .fragment}
+TODO
+![](https://raw.githubusercontent.com/ken-okabe/vscode-markdown-note-images/main/todo.gif)
+
+:::: 
+
+:::
+
+....The usage of Markdown is **limitless**
+
+---
+
+# Data management with Claude Code ![](https://api.iconify.design/selfhst:claude.svg){height="1.2em" style="vertical-align: middle; display: inline;"}
+
+---
+
+## AI Agent [(feat.Claude Code)]{style="font-size: 0.5em"}
+
+<br/>
+Since AI agent appeared, AI is no longer limited to just [**chatbot**]{style="color:red"}. <br/>
+AI is now actually able to do [**action**]{style="color:red"} in my local setup. <br/>
+
+![](https://assets.xpnsec.com/an-evening-with-claude-code/cover.webp){fig-align="center"}
+
+---
+
+## Leveraging Claude code to our research
+
+<br/>
+
+::: {.incremental}
+
+1. Read experimental logs 
+
+2. Find out information of interest
+
+3. Simple code/plot generation 
+
+4. Manage GitHub repo  ...etc  
+
+:::
+
+::: {.fragment}
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUEyC1D1OOC0z8wsHqMhzpvA_GViVq67-94fpuk9AeYA&s=10){fig-align="center"}
+:::
+
+---
+
+## Does Claude do all of our jobs?
+
+<br/>
+
+NO. CLAUDE [IS NOT ABLE]{style="color:red"} TO REPLACE 100% of YOUR JOB
+
+
+::: {.callout-caution}
+## [CAUTION]{style="color:red"}
+Claude can even make your work worse
+:::
+
+<br/>
+
+
+> "vibe codeing" is great for prototypes.
+> But dangerous production systems, security, and long-term code quality are on the line
+>  <br/> -Boris cherrny-
+
