@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    embed-resources: true
+---
+
 # Title
 
 **Date:** 16072026 \

@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    embed-resources: true
+---
+
 # Double-Negative (Negative Control) Primer Selection — ATAC-qPCR
 
 **Date:** 2026-07-16 \

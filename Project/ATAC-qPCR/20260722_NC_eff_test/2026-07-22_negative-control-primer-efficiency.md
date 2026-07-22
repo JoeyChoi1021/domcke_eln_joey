@@ -6,6 +6,9 @@ author:
     affiliation: University of Zurich
     email: wonhyung.choi@uzh.ch
 date: last-modified
+format:
+  html:
+    embed-resources: true
 ---
 
 # Goal

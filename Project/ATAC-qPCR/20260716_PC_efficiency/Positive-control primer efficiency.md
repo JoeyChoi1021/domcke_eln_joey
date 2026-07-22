@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    embed-resources: true
+---
+
 # Positive-control primer efficiency — four housekeeping/pluripotency pairs (Maria gDNA, iTaq SYBR)
 
 ## Aim
