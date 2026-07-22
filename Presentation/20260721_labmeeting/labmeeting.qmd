@@ -339,12 +339,13 @@ TODO
 - [ ] Adding codes
 - [ ] Table insert
 - [ ] Link insert
+- [ ] Visual editor 
 - [ ] Export the report to HTML/PDF/Word
 
----
+<br/>
 
+For more details about markdown![](https://api.iconify.design/mdi:language-markdown.svg){height="1.2em" style="vertical-align: middle; display: inline;"}, please click [here](https://www.markdownguide.org/extended-syntax/) 
 
----
 
 # Data management with Claude Code ![](https://api.iconify.design/selfhst:claude.svg){height="1.2em" style="vertical-align: middle; display: inline;"}
 

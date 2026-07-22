@@ -23,5 +23,12 @@ format:
 
 1. Prepared NC primers
 2. Ran NC primer efficient test
-3. changed cell media
-4.
+3. Changed cell media
+4. done with lab meeting slide for git&github
+5. done with demo:
+
+- Markdown entry creation
+- Claude code experiment data management
+- github file tracking
+
+6. learned markdown image and link insertion
