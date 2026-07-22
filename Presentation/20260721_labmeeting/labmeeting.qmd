@@ -6,8 +6,9 @@ author:
    affiliation: University of Zurich
    email: wonhyung.choi@uzh.ch
 date: last-modified
-format: 
+format:
     revealjs:
+        embed-resources: true
         incremental: false
         slide-number: true
         transition: none
@@ -274,12 +275,7 @@ project
 
 ---
 
-# Showcase
-
----
-
 # Markdown ![](https://api.iconify.design/mdi:language-markdown.svg){height="1.2em" style="vertical-align: middle; display: inline;"}
-
 
 ---
 
@@ -327,7 +323,26 @@ TODO
 
 :::
 
-....The usage of Markdown is **limitless**
+....The usage of Markdown is [limitless]{.hl-yellow}
+
+---
+
+# Showcase
+
+---
+
+## Check list
+
+<br/>
+
+- [ ] Image drag and drop
+- [ ] Adding codes
+- [ ] Table insert
+- [ ] Link insert
+- [ ] Export the report to HTML/PDF/Word
+
+---
+
 
 ---
 

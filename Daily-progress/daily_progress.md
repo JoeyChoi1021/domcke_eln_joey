@@ -20,4 +20,5 @@ date: last-modified
 
 1. Prepared NC primers
 2. Ran NC primer efficient test
-3.
+3. changed cell media
+4.

@@ -1,2 +1,6 @@
 # Claude Code local files (worktrees, jobs, session state)
 .claude/
+
+# Quarto build/preview artifacts
+/.quarto/
+*_files/
