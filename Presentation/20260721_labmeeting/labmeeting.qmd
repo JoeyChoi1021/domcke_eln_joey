@@ -1,5 +1,5 @@
 ---
-title: "Domcke lab Electric lab Note book"
+title: "Domcke lab Electronic Lab Notebook"
 subtitle: "Integrate Git & Github and AI agents to your science"
 author:
  - name: "Joey Choi"

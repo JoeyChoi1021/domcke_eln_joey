@@ -32,3 +32,9 @@ format:
 - github file tracking
 
 6. learned markdown image and link insertion
+
+---
+
+## July 23 2026
+
+1. Presented slide in lab meeting

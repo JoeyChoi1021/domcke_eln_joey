@@ -55,3 +55,10 @@ date: last-modified
 2. Splint doesnt contain eGFP sequence, rather contains a part of CDS in eGFP
 3. eGFP if gene: no italic, if transcripts: yes italic
 4. add gating plot
+
+---
+
+## 2026 july 23 Lab meeting
+
+1. share the slide
+2. make a repo which can DEMO ELN

@@ -4,3 +4,8 @@
 # Quarto build/preview artifacts
 /.quarto/
 *_files/
+
+
+# Data file
+
+/Project/ATAC-qPCR
