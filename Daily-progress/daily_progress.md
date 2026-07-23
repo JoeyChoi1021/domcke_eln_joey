@@ -38,3 +38,8 @@ format:
 ## July 23 2026
 
 1. Presented slide in lab meeting
+2. done qPCR on tag_materials setup
+3. done re-seed ES cell 1:1
+4. ran ATAC-qPCR demo
+5. still correcting thesis....
+6. sent put the result to channel
