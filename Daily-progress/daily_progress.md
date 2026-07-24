@@ -42,4 +42,12 @@ format:
 3. done re-seed ES cell 1:1
 4. ran ATAC-qPCR demo
 5. still correcting thesis....
-6. sent put the result to channel
+6. sent the result to channel
+
+---
+
+## July 24 2026
+
+1. Ran ATAC-qPCR on MEF
+2. changed cell media
+3. discussed the result w. silvia

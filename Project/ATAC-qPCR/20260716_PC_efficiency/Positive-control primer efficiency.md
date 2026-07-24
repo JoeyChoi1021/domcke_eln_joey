@@ -15,7 +15,7 @@ Establish a panel of well-behaved **positive-control primers** for the RoCK-ATAC
 - Conditions: n = 2 technical replicates per target per input level; three-point titration **1 / 10 / 100 ng** (log₁₀ 0/1/2).
 - Targets (5): **Hsp90aa**, **gapdh**, **klf4**, **nanog** (candidate PCs) and **Maria_GAPDH** (reference PC).
 - Template: **Maria's gDNA** (the clean, ≥90%-efficient reference established on 2026-07-09).
-- Chemistry: iTaq Universal SYBR Green Supermix (2×), 20 µL reactions, 60 °C anneal, standard iTaq cycling with melt. CFX protocol `qRT_PCR_template_GAPDH.prcl`, plate `20260713.pltd`; run 2026-07-16, 12:31–15:26 UTC, instrument 782BR21735.
+- **Chemistry:** **\*PowerUp SYBR Green Master Mix (2×)**, 20 µL reactions — 2 µL template + 2 µL primer + 10 µL 2× iTaQ qpCR mix + 6 µL water. CFX protocol `qRT_PCR_template_GAPDH.prcl`, plate `20260713.pltd`; run 2026-07-16, 12:31–15:26 UTC, instrument 782BR21735.
 - **Plate layout.** Rows set gDNA input (A/B/C = 1/10/100 ng), two wells per target (technical duplicate). Candidate PCs in cols 1–2/4–5/7–8/10–11 of rows A–C; Maria_GAPDH block in rows E–G.
 
 | Input (row) | Col 1–2 | Col 4–5 | Col 7–8 | Col 10–11 |

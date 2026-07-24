@@ -9,3 +9,10 @@
 # Data file
 
 /Project/ATAC-qPCR/
+
+# vscode config
+.vscode/
+
+# useless fils
+
+.DS_store
